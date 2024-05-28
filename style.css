@@ -266,11 +266,62 @@ border:2px solid  #fff;
   color: #fff;
   font-size: 14px;
 }
-@media(max-width: 1400px){
+@media(max-width: 700px){
   .about-wrap-content-img{
     height: auto;
     width: 100%;
     max-width: 1190px;
   }
+  .header-bottom-text h1{
+    font-size: 1rem;
+    line-height: 60px;
+  }
+  .card-items{
+    font-size: 12px;
+  }
+  .card-items{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3, 1fr)  ;
+    grid-row-gap: 1rem;
 }
-
+.about-wrap-title h2{
+  font-size: 1rem;
+}
+.about-wrap-text p{
+  font-size: 12px;
+}
+.about-wrap {
+  margin: 0 45px;
+}
+.swiper-title h2{
+  font-size: 30px;
+}
+.swiper-slide-img {
+  margin: 0;
+  padding: 0;
+}
+footer .container {
+  margin: 0;
+}
+.footer-info{
+  padding-top: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+  .footer-sign p{
+font-size: 3rem;
+  }
+  .footer-text{
+    padding-left: 5.7rem;
+   }
+   .footer-title h3{
+    font-size: 1.2rem;
+   }
+   .footer-info-text p{
+    font-size: 1rem;
+   }
+   .footer-links a{
+    font-size: 20px;
+   }
+}
